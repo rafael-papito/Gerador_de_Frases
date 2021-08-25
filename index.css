@@ -38,3 +38,6 @@ body{
 	border-radius: 20px;
 	border:2px ;
 } 
+.btn:hover{
+	background-position: right center; /* change the direction of the change here */
+}
