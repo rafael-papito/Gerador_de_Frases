@@ -44,5 +44,5 @@ body{
 .btn-1{
 	background-image: linear-gradient(to right, rgba(106, 9, 176,1) 0%, #fda085 51%, rgba(44, 7, 71,1) 100%);
 	/* background:linear-gradient( to top right, rgba(255,87,34,1) 0%, rgba(251,140,0 ,1) 100%); */
-	box-shadow: 1px 1px 30px rgba(255,111,0 ,1); 
+	box-shadow: 1px 1px 30px rgb(87, 78, 72); 
 }
