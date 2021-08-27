@@ -10,4 +10,7 @@ var frases = [
     'Todo mundo é um gênio. Mas, se você julgar um peixe por sua capacidade de subir em uma árvore, ela vai gastar toda a sua vida acreditando que ele é estúpido. - Albert Einstein',
     'Se você nasce pobre, não é erro seu. Mas se se você morre pobre, a culpa é sua. - Bill Gates '
   ];
-  
+  function gerarFrase(){
+    var aleatorio = Math.floor(Math.random()*(frases.length));
+    document.getElementById('frases').innerHTML = frases[aleatorio];
+  }
